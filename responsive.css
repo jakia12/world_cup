@@ -1,0 +1,23 @@
+@media screen and (max-width:768px) {
+    .btn-centered {
+
+        display: block !important;
+
+    }
+
+    .social-icon {
+
+        display: block !important;
+
+    }
+}
+
+@media screen and (max-width:576px) {
+
+
+    .social-icon {
+
+        display: block !important;
+
+    }
+}

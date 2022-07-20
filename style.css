@@ -11,7 +11,9 @@
     --white: #fff;
     --light-black: #191919;
     --gray: rgba(22, 22, 22, 0.7);
-    --light-gray: #E8E8E8
+    --light-gray: #E8E8E8;
+    --white-gray: #B9B9B9;
+    --clay-black: #666;
 }
 
 * {
@@ -121,6 +123,12 @@ p {
 .watch-btn {
     margin-top: 15px;
 }
+
+.img-fluid {
+    width: 100%;
+}
+
+
 
 /*========================================
 ===============filter section=============
@@ -258,6 +266,78 @@ h3.blog-title {
 }
 
 /*========================================
+===============footer section=============
+=======================================*/
+
+.footer {
+    padding: 80px 0;
+    background-color: var(--hero-bg);
+}
+
+.footer-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+a.footer-logo {
+    font-size: 40px;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-links {
+    text-align: center;
+    padding: 41px 0 0 0;
+}
+
+.footer-links a {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    color: var(--white-gray);
+    text-transform: capitalize;
+    margin: 0 19px;
+}
+
+.seperator {
+    width: 100%;
+    background: #f1f1f1;
+    height: 1px;
+    opacity: 0.3;
+}
+
+.social-icon {
+    text-align: center;
+    display: none;
+
+}
+
+.social-icon a {
+    text-decoration: none;
+    font-size: 15px;
+    width: 41px;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    border: 2px solid #fff;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 1px 6px 12px var(--clay-black);
+    transition: all 0.55s ease-in-out;
+
+}
+
+.social-icon a:hover {
+    box-shadow: none;
+    border: 2px solid var(--btn-bg);
+    color: var(--btn-bg)
+}
+
+/*========================================
 ===============Match page style==============
 =======================================*/
 .grid-wrapper.pd-all {
@@ -294,4 +374,17 @@ span.match-schedule {
     font-size: 16px;
     line-height: 20px;
     font-weight: 400;
+}
+
+.btn-centered {
+    text-align: center;
+    margin-top: 37px;
+    display: none;
+
+}
+
+.view-btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
 }

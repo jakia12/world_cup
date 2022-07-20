@@ -9,7 +9,8 @@
 
     <!-- font awesome icon -->
     <script src="https://kit.fontawesome.com/f5a24ca635.js" crossorigin="anonymous"></script>
-
+    <!-- responsive style -->
+    <link rel="stylesheet" href="responsive.css">
     <!-- main style -->
     <link rel="stylesheet" href="style.css">
 
@@ -38,136 +39,163 @@
 </head>
 
 <body>
-    <!-- Hero section start -->
-    <section class="hero-sec clearfix">
-        <div class="container">
-            <div class="hero-bg-wrapper">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="hero-text">
-                            <h2>the outstanding show in the world</h2>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply
-                                random text. It has roots in a piece of classical Latin literature from 45 BC, making it
-                                over 2000 years old.
-                            </p>
-                            <a class="watch-btn btn" href="#" target="_blank">watch live <i
-                                    class="fa-solid fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="hero-img">
-                            <img src="images/player.png" alt="" class="player">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Hero section end -->
-
-
-    <!--filter section start-->
-    <section class="filter-section">
-        <div class="container">
-            <div class="filter-row">
-                <div class="filtering-area">
-                    <div class="filter-btn-wrapper">
-                        <ul class="btn-group">
-                            <li><a class="match-btn" href="http://" target="_blank" rel="noopener noreferrer">Upcoming
-                                    Match</a></li>
-                            <li><a href="http://" target="_blank" rel="noopener noreferrer">All Group</a></li>
-                            <li><a class="active" href="http://" target="_blank" rel="noopener noreferrer">Blog</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="grid-area">
+    <main>
+        <!-- Hero section start -->
+        <section class="hero-sec clearfix">
+            <div class="container">
+                <div class="hero-bg-wrapper">
                     <div class="row">
-                        <div class="col-3">
-                            <div class="grid-wrapper pd-all">
-                                <div class="img-inline">
-                                    <img class="left-img" src="images/ar-ft.png" alt="">
-                                    <span class="vs-text">vs</span>
-                                    <img class="right-img" src="images/germany.png" alt="">
-                                </div>
-                                <div class="match-info">
-                                    <h3 class="match-title">Argentina vs Germany</h3>
-                                    <span class="match-schedule">April 01, 2023, 1.00 AM</span>
-                                </div>
+                        <div class="col-6">
+                            <div class="hero-text">
+                                <h2>the outstanding show in the world</h2>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply
+                                    random text. It has roots in a piece of classical Latin literature from 45 BC,
+                                    making it
+                                    over 2000 years old.
+                                </p>
+                                <a class="watch-btn btn" href="#" target="_blank">watch live <i
+                                        class="fa-solid fa-angle-right"></i></a>
                             </div>
                         </div>
-                        <div class="col-3">
-                            <div class="grid-wrapper pd-all">
-                                <div class="img-inline">
-                                    <img class="left-img" src="images/italy.png" alt="">
-                                    <span class="vs-text">vs</span>
-                                    <img class="right-img" src="images/france.png" alt="">
-                                </div>
-                                <div class="match-info">
-                                    <h3 class="match-title">Italy vs France</h3>
-                                    <span class="match-schedule">April 01, 2023, 1.00 AM</span>
-                                </div>
+                        <div class="col-6">
+                            <div class="hero-img">
+                                <img src="images/ball.png" alt="" class="img-fluid">
                             </div>
                         </div>
-                        <div class="col-3">
-                            <div class="grid-wrapper pd-all">
-                                <div class="img-inline">
-                                    <img class="left-img" src="images/uk.png" alt="">
-                                    <span class="vs-text">vs</span>
-                                    <img class="right-img" src="images/germany.png" alt="">
-                                </div>
-                                <div class="match-info">
-                                    <h3 class="match-title">UK vs Germany</h3>
-                                    <span class="match-schedule">April 01, 2023, 1.00 AM</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="grid-wrapper pd-all">
-                                <div class="img-inline">
-                                    <img class="left-img" src="images/bra.png" alt="">
-                                    <span class="vs-text">vs</span>
-                                    <img class="right-img" src="images/russ.png" alt="">
-                                </div>
-                                <div class="match-info">
-                                    <h3 class="match-title">Brazil vs Russia</h3>
-                                    <span class="match-schedule">April 01, 2023, 1.00 AM</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="grid-wrapper pd-all">
-                                <div class="img-inline">
-                                    <img class="left-img" src="images/portu.png" alt="">
-                                    <span class="vs-text">vs</span>
-                                    <img class="right-img" src="images/ukra.png" alt="">
-                                </div>
-                                <div class="match-info">
-                                    <h3 class="match-title">Portugal vs Ukrane</h3>
-                                    <span class="match-schedule">April 01, 2023, 1.00 AM</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="grid-wrapper pd-all">
-                                <div class="img-inline">
-                                    <img class="left-img" src="images/urugu.png" alt="">
-                                    <span class="vs-text">vs</span>
-                                    <img class="right-img" src="images/span-f.png" alt="">
-                                </div>
-                                <div class="match-info">
-                                    <h3 class="match-title">Uruguay vs Spain</h3>
-                                    <span class="match-schedule">April 01, 2023, 1.00 AM</span>
-                                </div>
-                            </div>
-                        </div>
-
-
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- filter section end -->
+        </section>
+        <!-- Hero section end -->
+
+
+        <!--filter section start-->
+        <section class="filter-section">
+            <div class="container">
+                <div class="filter-row">
+                    <div class="filtering-area">
+                        <div class="filter-btn-wrapper">
+                            <ul class="btn-group">
+                                <li><a class="match-btn" href="http://" target="_blank"
+                                        rel="noopener noreferrer">Upcoming
+                                        Match</a></li>
+                                <li><a href="http://" target="_blank" rel="noopener noreferrer">All Group</a></li>
+                                <li><a class="active" href="http://" target="_blank" rel="noopener noreferrer">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid-area">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="grid-wrapper pd-all">
+                                    <div class="img-inline">
+                                        <img class="left-img" src="images/ar-ft.png" alt="">
+                                        <span class="vs-text">vs</span>
+                                        <img class="right-img" src="images/germany.png" alt="">
+                                    </div>
+                                    <div class="match-info">
+                                        <h3 class="match-title">Argentina vs Germany</h3>
+                                        <span class="match-schedule">April 01, 2023, 1.00 AM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="grid-wrapper pd-all">
+                                    <div class="img-inline">
+                                        <img class="left-img" src="images/italy.png" alt="">
+                                        <span class="vs-text">vs</span>
+                                        <img class="right-img" src="images/france.png" alt="">
+                                    </div>
+                                    <div class="match-info">
+                                        <h3 class="match-title">Italy vs France</h3>
+                                        <span class="match-schedule">April 01, 2023, 1.00 AM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="grid-wrapper pd-all">
+                                    <div class="img-inline">
+                                        <img class="left-img" src="images/uk.png" alt="">
+                                        <span class="vs-text">vs</span>
+                                        <img class="right-img" src="images/germany.png" alt="">
+                                    </div>
+                                    <div class="match-info">
+                                        <h3 class="match-title">UK vs Germany</h3>
+                                        <span class="match-schedule">April 01, 2023, 1.00 AM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="grid-wrapper pd-all">
+                                    <div class="img-inline">
+                                        <img class="left-img" src="images/bra.png" alt="">
+                                        <span class="vs-text">vs</span>
+                                        <img class="right-img" src="images/russ.png" alt="">
+                                    </div>
+                                    <div class="match-info">
+                                        <h3 class="match-title">Brazil vs Russia</h3>
+                                        <span class="match-schedule">April 01, 2023, 1.00 AM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="grid-wrapper pd-all">
+                                    <div class="img-inline">
+                                        <img class="left-img" src="images/portu.png" alt="">
+                                        <span class="vs-text">vs</span>
+                                        <img class="right-img" src="images/ukra.png" alt="">
+                                    </div>
+                                    <div class="match-info">
+                                        <h3 class="match-title">Portugal vs Ukrane</h3>
+                                        <span class="match-schedule">April 01, 2023, 1.00 AM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="grid-wrapper pd-all">
+                                    <div class="img-inline">
+                                        <img class="left-img" src="images/urugu.png" alt="">
+                                        <span class="vs-text">vs</span>
+                                        <img class="right-img" src="images/span-f.png" alt="">
+                                    </div>
+                                    <div class="match-info">
+                                        <h3 class="match-title">Uruguay vs Spain</h3>
+                                        <span class="match-schedule">April 01, 2023, 1.00 AM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- filter section end -->
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-text">
+                <a href="#" class="footer-logo">Goal</a>
+            </div>
+            <div class="seperator"></div>
+            <div class="footer-links">
+                <a href="http://" target="_blank" rel="noopener noreferrer">contact us</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">terms of service</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">privacy policy</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">privacy settings</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">goal app</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">goal live</a>
+            </div>
+
+            <div class="social-icon">
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+
+            </div>
+    </footer>
 </body>
 
 </html>
