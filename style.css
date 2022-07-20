@@ -10,7 +10,8 @@
     --hero-bg: #161616;
     --white: #fff;
     --light-black: #191919;
-
+    --gray: rgba(22, 22, 22, 0.7);
+    --light-gray: #E8E8E8
 }
 
 * {
@@ -46,6 +47,7 @@ p {
 .row {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 
@@ -124,7 +126,7 @@ p {
 ===============filter section=============
 ========================================*/
 section.filter-section {
-    margin-top: 91px;
+    margin: 91px 0 67px 0;
 }
 
 .filter-row {
@@ -182,7 +184,7 @@ ul.btn-group {
 }
 
 
-.blogs-area {
+.grid-area {
     flex: 1 1 75%;
     width: 75%;
 }
@@ -219,4 +221,38 @@ a.transfer-btn {
 a.transfer-btn:hover {
     background-color: var(--btn-hover-bg);
     color: var(--white)
+}
+
+h3.blog-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    margin-bottom: 17px;
+    color: var(--light-black)
+}
+
+.time {
+    margin-right: 26px;
+}
+
+.time i,
+.comments i {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+
+.time,
+.comments {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+
+}
+
+.grid-wrapper {
+    border: 1px solid var(--light-gray);
+    border-radius: 10px;
+    margin-bottom: 24px;
 }
