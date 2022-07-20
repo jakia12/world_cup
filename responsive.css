@@ -19,15 +19,14 @@
     .hero-text {
         transform: translate(0, 0);
         padding-left: 15px;
-        padding-top: 18px;
+        padding-top: 30px;
 
     }
 
     .hero-text h2 {
-        font-size: 40px;
+        font-size: 34px;
         line-height: 49px;
         font-weight: 700;
-
     }
 
     .hero-text p {
@@ -93,12 +92,28 @@
     }
 
     /**************footer**************/
+    .footer {
+        padding: 53px 0;
+
+    }
+
     .footer-links {
         padding: 41px 61px 0 61px;
         line-height: 39px;
     }
 
 
+
+}
+
+@media screen and (max-width:684px) {
+
+    /***********hero section***********/
+    .hero-text h2 {
+        font-size: 29px;
+        line-height: 49px;
+        font-weight: 700;
+    }
 }
 
 @media only screen and (max-width:576px) {
@@ -109,11 +124,7 @@
 
     }
 
-    .social-icon {
 
-        display: block;
-
-    }
 }
 
 @media screen and (max-width:480px) {
@@ -214,9 +225,35 @@
         margin: 0 auto;
     }
 
-    .social-icon {
+    .icon-wrapper {
+        text-align: center;
+        margin-top: 21px;
 
+    }
+
+    .icon-wrapper h3 {
+        color: #fff;
+        font-size: 20px;
+        text-transform: capitalize;
+        padding-bottom: 0;
+        margin: 0 0 13px;
+    }
+
+    .title-divider {
+        height: 1px;
+        background: #ddd;
+        width: 50px;
+        margin: 0 auto;
+    }
+
+    .icon-wrapper {
         display: block;
-        margin-top: 29px;
+        text-align: center;
+
+    }
+
+    .social-icon {
+        margin-top: 30px;
+
     }
 }
