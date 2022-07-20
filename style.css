@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,600;0,700;1,500&family=Raleway:ital,wght@0,300;0,400;0,500;0,700;0,800;1,500&display=swap');
+
+/*========================================
+===============Global style=============
+=======================================*/
+
+:root {
+    --btn-bg: #C30052;
+    --btn-hover-bg: #0063B1;
+    --hero-bg: #161616;
+    --white: #fff;
+    --light-black: #191919;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white);
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #f7f7f7;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    max-width: 1087px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.btn {
+    padding: 14px 40px;
+    font-size: 17px;
+    text-decoration: none;
+    color: var(--white);
+    background: var(--btn-bg);
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: all 0.55s linear;
+    position: relative;
+    display: inline-block;
+    outline: none
+}
+
+.btn:hover .fa-angle-right {
+    right: 16px;
+}
+
+.fa-angle-right {
+
+    transition: all 0.55s ease;
+    position: absolute;
+    top: 35%;
+    right: 21px;
+}
+
+.btn:hover {
+    background-color: var(--btn-hover-bg);
+}
+
+/*========================================
+===============Hero section ==============
+=======================================*/
+
+.hero-sec {
+    margin-top: 50px;
+}
+
+.hero-bg-wrapper {
+    background-color: var(--hero-bg);
+    border-radius: 30px;
+    padding: 33px 0 0 0;
+}
+
+.col-6 {
+    flex: 1 1 48%;
+    width: 48%;
+    padding: 0 29px;
+}
+
+.hero-text {
+    transform: translate(5%, 26%);
+}
+
+.hero-text h2 {
+    color: var(--white);
+    font-size: 52px;
+    line-height: 70px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.hero-text p {
+    margin: 21px 0;
+}
+
+.watch-btn {
+    margin-top: 15px;
+}
+
+/*========================================
+===============filter section=============
+========================================*/
+section.filter-section {
+    margin-top: 91px;
+}
+
+.filter-row {
+    display: flex;
+    justify-content: center;
+}
+
+.filtering-area {
+    flex: 1 1 25%;
+    width: 25%;
+}
+
+ul.btn-group {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--hero-bg);
+    border-radius: 10px;
+    padding: 30px 30px 0 30px;
+    margin-right: 12px;
+}
+
+.btn-group li {
+    list-style: none;
+}
+
+.btn-group li a {
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 15px 17px;
+    background: var(--white);
+    margin-bottom: 28px;
+    display: block;
+    border-radius: 10px;
+    color: var(--filter-btn-color);
+    text-align: center;
+    transition: all 0.55s ease
+}
+
+.active {
+    background-color: var(--btn-bg) !important;
+    color: var(--white) !important;
+}
+
+.active:hover,
+.active:focus {
+    background-color: var(--btn-hover-bg) !important;
+}
+
+.mb-0 {
+    margin-bottom: 0
+}
+
+
+.blogs-area {
+    flex: 1 1 75%;
+    width: 75%;
+}
+
+.col-3 {
+    flex: 1 1 25%;
+    width: 25%;
+    margin: 0 12px;
+}
+
+img.blog-img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.blog-info {
+    margin: 18px 0 18px 18px;
+}
+
+a.transfer-btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 22px;
+    border: 1px solid var(--light-black);
+    color: var(--light-black);
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: 3px;
+    margin-bottom: 14px;
+    transition: all 0.55s ease;
+}
+
+a.transfer-btn:hover {
+    background-color: var(--btn-hover-bg);
+    color: var(--white)
+}
